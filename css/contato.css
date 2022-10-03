@@ -7,6 +7,8 @@
     background:#8EC9F9;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0px;
 }
 .pesquisar{
     width: 60%;
@@ -186,7 +188,7 @@ to {
 */
 .contact{
   width: 100%;
-  height: 105vh;
+  height: 750px;
   background-color: #002aff79;
   position: flex;
   padding: 0.1px;
@@ -272,21 +274,144 @@ h3{
   width: 600px;
   height: 610px;
   margin-left: 400px;
-  margin-top: 40px;
+  margin-top: 105px;
   border-radius: 20px 20px 20px 20px;
   align-items: center;
+}
+@media (max-width: 1080px){
+    .formulario{
+      margin-left: 29%;
+    }  
+    .quadro-info strong {
+      font-size: 2rem;
+  }
+  
+  .quadro-info{
+    padding: 0 3rem 0 4rem;
+    right: -5%;
+  }
+  .contato {
+    overflow: hidden;
+}
+  .quadro-info {
+    padding: 0 2rem;
+    max-width: 100%;
+  }.pesquisar{
+    width: 450px;
+    margin-left: -50px;
+  }
+  img {
+    margin-left: 18px;
+  }
+  .mmenu{
+    margin: 28px;
+    margin-left: -22px;
+  }
+}
+@media (max-width: 980){
+  .quadro-info:nth-child(1) i, 
+  .quadro-info:nth-child(2) i, 
+  .quadro-info:nth-child(3) i {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    position: static;
+    transform: none;
+  }
+  .principal{
+    position: inherit;
+  }
+  }
+
+@media (max-width: 920px){
+  .pesquisar{
+    width: 250px;
+  }
+  .quadro-info strong, span {
+    padding-right: 0rem;
+    width: 0px;
+    height: 71px;
+    margin: -46px;
+    margin-left: -67px;
+  }
+  .quadro-info span{
+    padding: 52px;
+    margin-right: -24px;
+  }
+  .quadro-info:nth-child(1) i {
+    font-size: 1rem;
+}
+}
+@media (max-width: 770px){
+  .formulario{
+    margin-left: 20%;
+  }  
+}
+@media (max-width: 690px){
+  .pesquisar{
+    width: 300px;
+    margin-left: -100px;
+  }
+  img {
+    margin-left: -8px;
+  }
+  .mmenu{
+    margin: 28px;
+    margin-left: -87px;
+  }
+}
+@media (max-width: 610px){
+  .formulario{
+    margin-left: 2%;
+  }  
+  .pesquisar{
+    width: 250px;
+    margin-left: -100px;
+  }
+  .mmenu{
+    margin: 28px;
+    margin-left: -82px;
+  }
+  .copyright{
+    margin-left: -71px;
+  }
+}
+  
+  .formulario{
+    width: 400px;
+    
+  } 
+  #any{
+    margin-left: -95px;
+  } 
+  .quadro-info strong {
+    font-size: 0.7rem;
+    margin-left: -50px;
+  }
+  .contato {
+    padding: 2rem 0;
+  }
+ .contato-grid {
+    display: block;
+  }
+  .quadro-info {
+    padding: 1rem 0;
+  }
+
+
+
+
+@media (max-width: 840px){
+.quadro-info {
+    padding: 0;
+}
 }
 
 .contato{
   background: #000000;
   padding: 3.25rem 0;
-/*
-  width: 100%;
-  height: 30vh;
-  background-color: #000000;
-  position: relative;
-  margin-top: 20vh;
-*/
+  margin-top: 35px;
 }
 
 .grid {
@@ -379,9 +504,12 @@ h3{
 .copyright{
   position: relative;
   padding: -6.75rem 20vh;
-  margin-top: 32vh;
+  margin-top: 330px;
   align-items: center;
-  left: 40%;
+  left: 44%;
   margin-bottom: 10vh;
+}
+.copyright img{
+  margin-left: 70px;
 }
 
